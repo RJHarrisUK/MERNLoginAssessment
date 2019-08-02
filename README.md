@@ -96,13 +96,22 @@ As a user, I want to be informed when I am logging in with data that is inaccura
 
 ![Register User](Documentation/InBrowser/RegisterUser.png)
 ![Register User Errors](Documentation/InBrowser/RegisterErrors.png)
+
+This is determined in the routes to the mongo database and pushed to the front-end as jsons which are stringified and printed on screen if present (by updating the state of the component if errors received in the response).
+
 ![Login User](Documentation/InBrowser/LoginUser.png)
 ![Login User Error 1](Documentation/InBrowser/LoginError1.png)
+
+As above: this is determined in the routes to the mongo database and pushed to the front-end as jsons which are stringified and printed on screen if present (by updating the state of the component if errors received in the response).
+
 ![Login User Error 2](Documentation/InBrowser/LoginError2.png)
+
+As above: this is determined in the routes to the mongo database and pushed to the front-end as jsons which are stringified and printed on screen if present (by updating the state of the component if errors received in the response).
+
 ![User List](Documentation/InBrowser/UserList.png)
 ![User List Security](Documentation/InBrowser/UserListSecurity.png)
 
-Importantly - passwords are not sent to the front end. They are also hashed in the backend. Bcrypt is used to compare the provided password and hashed password when logging in.
+As seen in the console log - passwords are not sent to the front end. The get all request removes them in the mongo database route endpoints. They are also hashed in the backend for extra security. Bcrypt is used to compare the provided password and hashed password when logging in.
 
 <a name="next"></a>
 # 5. Next Steps
