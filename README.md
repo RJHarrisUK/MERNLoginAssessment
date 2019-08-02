@@ -13,11 +13,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [3. Hierarchy](#hierarchy)
 
-[4. Next Steps](#next)
+[4. Working Application](#browser)
 
-[5. Author](#auth)
+[5. Next Steps](#next)
 
-[6. Acknowledgements](#ack)
+[6. Author](#auth)
+
+[7. Acknowledgements](#ack)
 
 <a name="brief"></a>
 # 0. The Brief
@@ -89,6 +91,19 @@ As a user, I want to be informed when I am logging in with data that is inaccura
 
 ![Component Hierarchy](Documentation/Hierarchy/hierarchy.png)
 
+<a name="browser"></a>
+# 5. Working Application
+
+![Register User](Documentation/InBrowser/RegisterUser.png)
+![Register User Errors](Documentation/InBrowser/RegisterErrors.png)
+![Login User](Documentation/InBrowser/LoginUser.png)
+![Login User Error 1](Documentation/InBrowser/LoginError1.png)
+![Login User Error 2](Documentation/InBrowser/LoginError2.png)
+![User List](Documentation/InBrowser/UserList.png)
+![User List Security](Documentation/InBrowser/UserListSecurity.png)
+
+Importantly - passwords are not sent to the front end. They are also hashed in the backend. Bcrypt is used to compare the provided password and hashed password when logging in.
+
 <a name="next"></a>
 # 5. Next Steps
 
@@ -105,12 +120,12 @@ Also there remains an issue getting one of the tests to complete, which "Cannot 
 This is a knowledge gap that is being bridged now.
 
 <a name="author"></a>
-# 5. Author
+# 6. Author
 
 Rich Harris
 
 <a name="ack"></a>
-# 6. Acknowledgements
+# 7. Acknowledgements
 
 * QA consulting and our fantastic instructors
 * https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified in order to fulfil the assessment requirements, hence the modified version is included in this repo in the UserLoginBackend folder.
