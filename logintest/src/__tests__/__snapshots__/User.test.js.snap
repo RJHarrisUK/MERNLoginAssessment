@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render a user 1`] = `ReactWrapper {}`;
-
-exports[`render a user comp 1`] = `ReactWrapper {}`;
+exports[`render a user comp 1`] = `
+<div>
+  <p />
+</div>
+`;

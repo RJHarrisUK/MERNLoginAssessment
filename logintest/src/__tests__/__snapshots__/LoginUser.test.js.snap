@@ -1,3 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render a login user comp 1`] = `ReactWrapper {}`;
+exports[`render a login user comp 1`] = `
+<div>
+  <h1>
+    Login User
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      id="username"
+      placeholder="Username"
+      type="text"
+    />
+    <br />
+    <input
+      id="email"
+      placeholder="E-mail"
+      type="text"
+    />
+    <br />
+    <input
+      id="password"
+      placeholder="Password"
+      type="text"
+    />
+    <p
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      
+    </p>
+    <br />
+    <button
+      type="submit"
+    >
+      Login User
+    </button>
+  </form>
+</div>
+`;
