@@ -93,7 +93,7 @@ As a user, I want to be informed when I am logging in with data that is inaccura
 Rich Harris
 
 <a name="ack"></a>
-# 4. Acknowledgements
+# 5. Acknowledgements
 
 * QA consulting and our fantastic instructors
-* https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified in order to fulfil the assessment requirements, hence the modified version is included in this repo.
+* https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified in order to fulfil the assessment requirements, hence the modified version is included in this repo in the UserLoginBackend folder.
