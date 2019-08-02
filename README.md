@@ -96,4 +96,4 @@ Rich Harris
 # 4. Acknowledgements
 
 * QA consulting and our fantastic instructors
-* https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified.
+* https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified in order to fulfil the assessment requirements, hence the modified version is included in this repo.
