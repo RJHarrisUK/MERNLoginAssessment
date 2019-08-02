@@ -38,20 +38,29 @@ Plan out this application by:
 4.	Deciding where the state should be stored.
 
 ### User Stories:
+User Story: 
 <p align="center">
-User Story: As a user, I can register to the system by providing a valid username, valid email and verified password.
+As a user, I can register to the system by providing a valid username, valid email and verified password.
 </p>
+
+User Story: 
 <p align="center">
-User Story: As a user, I want to then be able to login using this username and password.
+As a user, I want to then be able to login using this username and password.
 </p>
+
+User Story: 
 <p align="center">
-User Story: As a user, I want to be able to see a list of the usernames of other users.
+As a user, I want to be able to see a list of the usernames of other users.
 </p>
+
+User Story: 
 <p align="center">
-User Story: As a user, I want the system to inform me when I am trying to register with incorrect details.
+As a user, I want the system to inform me when I am trying to register with incorrect details.
 </p>
+
+User Story: 
 <p align="center">
-User Story: As a user, I want to be informed when I am logging in with data that is inaccurate (hint: use the results from the post request to help you).
+As a user, I want to be informed when I am logging in with data that is inaccurate (hint: use the results from the post request to help you).
 </p>
 
 <a name="wireframes"></a>
