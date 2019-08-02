@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the router 1`] = `ReactWrapper {}`;
+
+exports[`render the router comp 1`] = `ReactWrapper {}`;
