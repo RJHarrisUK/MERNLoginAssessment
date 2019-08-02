@@ -20,6 +20,40 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <a name="brief"></a>
 # 0. The Brief
 
+### Introduction
+
+Build a React Application that models a User Login and Register System.  This system needs to show your knowledge of:
+*	React
+*	ReactStrap
+*	Router
+*	Snapshot testing
+You React application should make use of the provided Node Backend.
+
+### Planning 
+
+Plan out this application by:
+1.	Creating your wireframes.
+2.	Deciding on your components.
+3.	Deciding on a Component Hierarchy
+4.	Deciding where the state should be stored.
+
+### User Stories:
+<p align="center">
+User Story: As a user, I can register to the system by providing a valid username, valid email and verified password.
+</p>
+<p align="center">
+User Story: As a user, I want to then be able to login using this username and password.
+</p>
+<p align="center">
+User Story: As a user, I want to be able to see a list of the usernames of other users.
+</p>
+<p align="center">
+User Story: As a user, I want the system to inform me when I am trying to register with incorrect details.
+</p>
+<p align="center">
+User Story: As a user, I want to be informed when I am logging in with data that is inaccurate (hint: use the results from the post request to help you).
+</p>
+
 <a name="wireframes"></a>
 # 1. Wireframes
 
@@ -41,8 +75,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <a name="hierarchy"></a>
 # 3. Hierarchy
 
+![Component Hierarchy](Documentation/Hierarchy/Hierarchy.png)
+
 <a name="author"></a>
 # 4. Author
 
+Rich Harris
+
 <a name="ack"></a>
 # 4. Acknowledgements
+
+* QA consulting and our fantastic instructors
+* https://github.com/matt25969/node_user_login formed the base of my backend, which has been modified.
