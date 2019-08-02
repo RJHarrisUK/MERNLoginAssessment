@@ -27,38 +27,39 @@ Build a React Application that models a User Login and Register System.  This sy
 *	ReactStrap
 *	Router
 *	Snapshot testing
-You React application should make use of the provided Node Backend.
+
+Your React application should make use of the provided Node Backend.
 
 ### Planning 
 
 Plan out this application by:
-1.	Creating your wireframes.
-2.	Deciding on your components.
-3.	Deciding on a Component Hierarchy
-4.	Deciding where the state should be stored.
+1.	 Creating your wireframes.
+2.	 Deciding on your components.
+3.	 Deciding on a Component Hierarchy
+4.	 Deciding where the state should be stored.
 
 ### User Stories:
-User Story: 
+#### User Story 1: 
 <p align="center">
 As a user, I can register to the system by providing a valid username, valid email and verified password.
 </p>
 
-User Story: 
+#### User Story 2: 
 <p align="center">
 As a user, I want to then be able to login using this username and password.
 </p>
 
-User Story: 
+#### User Story 3: 
 <p align="center">
 As a user, I want to be able to see a list of the usernames of other users.
 </p>
 
-User Story: 
+#### User Story 4: 
 <p align="center">
 As a user, I want the system to inform me when I am trying to register with incorrect details.
 </p>
 
-User Story: 
+#### User Story 5: 
 <p align="center">
 As a user, I want to be informed when I am logging in with data that is inaccurate (hint: use the results from the post request to help you).
 </p>
