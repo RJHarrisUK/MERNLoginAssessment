@@ -40,27 +40,27 @@ Plan out this application by:
 
 ### User Stories:
 #### User Story 1: 
-<p align="center">
+<p>
 As a user, I can register to the system by providing a valid username, valid email and verified password.
 </p>
 
 #### User Story 2: 
-<p align="center">
+<p>
 As a user, I want to then be able to login using this username and password.
 </p>
 
 #### User Story 3: 
-<p align="center">
+<p>
 As a user, I want to be able to see a list of the usernames of other users.
 </p>
 
 #### User Story 4: 
-<p align="center">
+<p>
 As a user, I want the system to inform me when I am trying to register with incorrect details.
 </p>
 
 #### User Story 5: 
-<p align="center">
+<p>
 As a user, I want to be informed when I am logging in with data that is inaccurate (hint: use the results from the post request to help you).
 </p>
 
@@ -85,7 +85,7 @@ As a user, I want to be informed when I am logging in with data that is inaccura
 <a name="hierarchy"></a>
 # 3. Hierarchy
 
-![Component Hierarchy](Documentation/Hierarchy/Hierarchy.png)
+![Component Hierarchy](Documentation/Hierarchy/hierarchy.png)
 
 <a name="author"></a>
 # 4. Author
